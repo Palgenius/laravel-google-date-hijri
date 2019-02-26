@@ -48,7 +48,7 @@ class HijriController extends Controller
         $data=explode(" ",$data);
 
 
-        return ['year'=>$data[0],'month'=>$data[1],'day'=>$data[2]];
+        return ['day'=>$data[0],'month'=>$data[1],'year'=>$data[2]];
 
 
 
